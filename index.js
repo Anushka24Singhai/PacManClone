@@ -550,19 +550,6 @@
 				context.fillText('Pac-Man',this.x,this.y);
 			}
 		});
-		
-		// stage.createItem({
-		// 	x:game.width-12,
-		// 	y:game.height-5,
-		// 	draw:function(context){
-		// 		context.font = '14px Helvetica';
-		// 		context.textAlign = 'right';
-		// 		context.textBaseline = 'bottom';
-		// 		context.fillStyle = '#AAA';
-		// 	//	context.fillText('© passer-by.com',this.x,this.y);
-		// 	}
-		// });
-		
 		stage.bind('keydown',function(e){
 			switch(e.keyCode){
 				case 13:
